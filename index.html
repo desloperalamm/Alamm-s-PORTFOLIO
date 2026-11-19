@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- HOMEPAGE DOCUMENT: page metadata, shared fonts, styles, and homepage data/rendering scripts. -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#00001b">
+  <meta name="description"
+    content="Desloper is a multidisciplinary designer working across graphic design, UI/UX, web design, and frontend development.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Desloper — Designer & Frontend Developer">
+  <meta property="og:description" content="Meaningful visual identities and digital experiences, crafted with care.">
+  <meta property="og:image"
+    content="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1200&q=85">
+  <title>Alamm | UI/UX , Graphic Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/assets/projects.js" defer></script>
+  <script src="/assets/site.js" defer></script>
+</head>
+
+<body>
+  <!-- GLOBAL ACCESSIBILITY + SCROLL UI: skip target and progress bar used across the homepage. -->
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" aria-hidden="true"><span id="scroll-progress-bar"></span></div>
+
+  <!-- SITE HEADER: desktop/mobile navigation, theme toggle, and contact shortcut. -->
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Desloper home">
+      <img src="./assets/images/desloper-logo.svg" width="64%" alt="">
+      <!-- <span class="brand-mark" aria-hidden="true">D</span> -->
+      <!-- <span>DESLOPER<span class="brand-period">.</span></span> -->
+    </a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#work">Work</a>
+      <a href="#about">About Me</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-toggle icon-button" type="button" aria-label="Switch to light theme" title="Switch theme">
+        <span class="theme-icon" aria-hidden="true">◐</span>
+      </button>
+      <a class="header-cta" href="#contact">Let’s talk <span aria-hidden="true">↗ 
+</span></a>
+      <button class="menu-toggle icon-button" type="button" aria-expanded="false" aria-controls="mobile-menu"
+        aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobile-menu" aria-label="Mobile navigation" hidden>
+      <a href="#work">Work <span>01</span></a>
+      <a href="#about">About Me <span>02</span></a>
+      <a href="#contact">Contact <span>03</span></a>
+    </nav>
+  </header>
+
+  <!-- MAIN HOMEPAGE CONTENT: update the static editorial copy in this file. -->
+  <main id="main">
+    <!-- HERO SECTION: headline, introduction, and primary navigation into the portfolio. -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-image" aria-hidden="true"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-topline">
+        <!-- <span>INDEPENDENT DESIGNER</span> -->
+        <span>OPEN TO FREELANCE & FULL-TIME</span>
+      </div>
+      <div class="hero-wordmark" aria-label="Desloper">Alamm's</div>
+      <div class="hero-bottom">
+        <div class="hero-intro">
+          <p class="eyebrow"><span class="eyebrow-line"></span> GRAPHIC DESIGNER · UI/UX DESIGNER · WEB DESIGNER</p>
+          <h1 id="hero-title">Designing digital experiences that make an impact.</h1>
+          <p class="hero-copy">Combining visual design, user-focused thinking, and frontend skills to create meaningful digital experiences.</p>
+          <div class="hero-actions">
+            <a class="button button-light" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
+            <!-- <a class="text-link" href="#contact">Let’s work together <span aria-hidden="true">↗</span></a> -->
+          </div>
+        </div>
+        <div class="hero-aside">
+          <!-- <span class="hero-index">01 / 04</span> -->
+          <!-- <p>Thoughtful design.<br>Built for people.</p> -->
+          <a href="#work" class="scroll-cue"><span class="scroll-cue-line"></span> SCROLL TO EXPLORE</a>
+        </div>
+      </div>
+      <!-- <div class="hero-corner-note">DESIGN <span>+</span> DIGITAL CRAFT</div> -->
+    </section>
+
+    <!-- INTRO STRIP: short positioning statement beneath the hero. -->
+    <section class="intro-strip" aria-label="Introduction">
+      <span class="mono-label">WHERE CREATIVITY MEETS PURPOSE</span>
+      <p>I believe <span> great design</span> goes beyond aesthetics. I combine
+        <span> creativity,</span> thoughtful design, and <span> technology</span> to create<span> meaningful brands and digital experiences.</span></p>
+
+      <span class="strip-orbit" aria-hidden="true">✳</span>
+    </section>
+
+    <!-- PROJECT SHOWCASE: filters and two data-driven groups. Edit project content and URLs in assets/projects.js. -->
+    <section class="section work-section" id="work">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-line"></span> A SELECTION OF MY WORK</p>
+          <h2>Selected <span class="heading-muted">work</span><sup>06</sup></h2>
+        </div>
+        <p class="section-intro">AA curated collection of websites, digital products, and visual designs, showcasing my approach to creativity, thoughtful design, and meaningful user experiences.</p>
+      </div>
+      <div class="work-toolbar reveal">
+        <div class="filter-list" role="group" aria-label="Filter projects">
+          <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All work
+            <span>06</span></button>
+          <button class="filter-button" type="button" data-filter="case-study" aria-pressed="false">Case studies
+            <span>02</span></button>
+          <button class="filter-button" type="button" data-filter="landing-page" aria-pressed="false">Landing pages
+            <span>04</span></button>
+        </div>
+        <!-- <span class="work-note">SELECT A PROJECT TO EXPLORE <span aria-hidden="true">↘</span></span> -->
+      </div>
+      <!-- UI/UX CASE STUDIES: the project data determines which entries appear in this grid. -->
+      <div class="project-subgroup" id="case-study-group">
+        <div class="subgroup-kicker">
+          <h3>01 / CASE STUDIES</h3><span>PROJECT STORIES <i>↗</i></span>
+        </div>
+        <div class="project-grid" id="project-grid" aria-live="polite"></div>
+      </div>
+      <!-- LANDING PAGE PROJECTS: includes the four website concepts in assets/projects.js. -->
+      <section class="project-subgroup landing-project-group" id="landing-pages" aria-labelledby="landing-heading">
+        <div class="landing-group-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span> 02 / WEBSITE DESIGN</p>
+            <h2 id="landing-heading">Landing Page<br><span class="heading-muted">Designs</span></h2>
+          </div>
+          <p>Focused concepts for agencies, products, and learning experiences — each with a clear story and considered
+            visual rhythm.</p>
+        </div>
+        <div class="project-grid" id="landing-grid" aria-live="polite"></div>
+      </section>
+    </section>
+
+    <!-- LANDING PAGE CALLOUT: supporting copy and link back to website projects. -->
+    <section class="landing-note-section" aria-label="Landing page designs">
+      <div class="landing-note reveal">
+        <div class="landing-note-symbol" aria-hidden="true">↗</div>
+        <div>
+          <p class="eyebrow">WEB DESIGN · DIGITAL EXPERIENCES</p>
+          <h2>Landing pages with a point of view.</h2>
+        </div>
+        <p class="landing-note-copy">Focused concepts built around clear stories, considered layouts, and the small
+          details that make a page feel alive.</p>
+        <a href="#work" class="round-link" aria-label="Browse landing page projects">↘</a>
+      </div>
+    </section>
+
+    <!-- SOCIAL MEDIA CREATIVES: artwork/image catalog is in assets/site.js; photos live in assets/images/creatives/. -->
+    <section class="section social-section" id="social">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-line"></span> GRAPHIC DESIGN · BRAND COMMUNICATION</p>
+          <h2>Social Media <span class="heading-muted">Creatives</span></h2>
+        </div>
+        <div class="social-heading-right">
+          <p class="section-intro">From promotional campaigns to engaging social posts, I create impactful visuals that connect brands with their audience through thoughtful design.</p>
+          <!-- <span class="source-note">Replace sample compositions with original artwork.</span> -->
+        </div>
+      </div>
+      <div class="creative-grid reveal" id="creative-grid" aria-label="Social media creative gallery"></div>
+      <button class="text-link gallery-more" id="gallery-more" type="button">View all social media creatives <span
+          aria-hidden="true">↗</span></button>
+    </section>
+
+    <!-- SKILLS & EXPERTISE: edit labels and skill lists directly below. -->
+    <section class="skills-section" id="skills">
+      <div class="section skills-layout">
+        <div class="skills-title reveal">
+          <p class="eyebrow"><span class="eyebrow-line"></span> 	MY CREATIVE TOOLKIT</p>
+          <h2>Skills &amp;<br><span class="heading-muted">Expertise</span></h2>
+          <p>	I bring together creativity, design thinking, and technical skills to transform ideas into thoughtful visuals and functional digital experiences.</p>
+        </div>
+        <div class="skill-groups reveal">
+          <div class="skill-group">
+            <h3><span>01</span> UI/UX Design</h3>
+            <p>Adobe Photoshop <i>·</i> Adobe Illustrator <i>·</i> Branding <i>·</i> Visual Identity <i>·</i> Typography <i>·</i> Social Media Design <i>·</i> Campaign Creatives</p>
+          </div>
+          <div class="skill-group">
+            <h3><span>02</span> Graphic Design</h3>
+            <p>Adobe Photoshop <i>·</i> Adobe Illustrator <i>·</i> Branding <i>·</i> Visual Identity <i>·</i> Typography <i>·</i> Social Media Design <i>·</i> Campaign Creatives</p>
+          </div>
+          <div class="skill-group">
+            <h3><span>03</span> Frontend Development</h3>
+            <p>HTML5 <i>·</i> CSS3 <i>·</i> JavaScript <i>·</i> Bootstrap <i>·</i> Responsive Development <i>·</i> React</p>
+          </div>
+          <div class="skill-group">
+            <h3><span>04</span> Other Skills</h3>
+            <p>WordPress <i>·</i> GSAP <i>·</i> SEO <i>·</i> Adobe After Effects <i>·</i> Adobe Premiere Pro <i>·</i> Canva</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION: edit the profile statement, values, and abstract artwork copy here. -->
+    <section class="about-section section" id="about">
+      <div class="about-visual reveal" aria-label="Abstract blue and ivory design artwork">
+        <img src="./assets/images/alam-sh.PNG" alt="" height="96%">
+        <!-- <div class="about-visual-orb"></div> -->
+        <!-- <div class="about-visual-ring"></div> -->
+        <!-- <div class="about-visual-type">MAKE<br>IT<br><em>MATTER.</em></div> -->
+        <span class="about-visual-caption">DESIGN IS A WAY OF SEEING.</span>
+      </div>
+      <div c  lass="about-copy reveal">
+        <p class="eyebrow"><span class="eyebrow-line"></span> ABOUT ME</p>
+        <h2>Good design makes the complex feel <span class="heading-muted">clear.</span></h2>
+        <p class="about-paragraph">I'm Alamm Saif, a multidisciplinary designer with a background in graphic design and a passion for UI/UX, web design, and digital experiences. I combine visual creativity, user-centered thinking, and technical skills to create designs that are meaningful, functional, and visually engaging.</p>
+        <div class="about-values">
+          <span>Creative problem-solving</span><span>Visual storytelling</span>
+          <span>User-centered design</span><span>Interface &amp; Web Design</span>
+          <span>Design Thinking & Strategy</span>
+        </div>
+        <a class="text-link" href="#contact">LET'S WORK TOGETHER<span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION: update contact details in PORTFOLIO_CONFIG inside assets/projects.js. -->
+    <section class="contact-section" id="contact">
+      <div class="section contact-inner">
+        <div class="contact-heading reveal">
+          <p class="eyebrow"><span class="eyebrow-line"></span> LET'S CONNECT · HAVE A PROJECT IN MIND?</p>
+          <h2>Let’s make<br><span>something</span><br>meaningful.</h2>
+          <p class="contact-lede">Whether it's a freelance project, a creative collaboration, or a full-time opportunity, I'd love to hear what you're working on. Let's create something meaningful together.</p>
+          <div class="availability-list">
+            <div><span>Open to freelance projects</span><b class="config-freelance"></b></div>
+            <div><span>Available for full-time roles</span><b class="config-fulltime"></b></div>
+          </div>
+          <div class="contact-direct">
+            <div><span class="mono-label">EMAIL</span><a class="config-email" href="#contact">Add your email
+                <span>↗</span></a></div>
+            <div><span class="mono-label">PHONE</span><span class="config-phone">Add your phone</span></div>
+          </div>
+          <div class="social-links">
+            <a class="config-linkedin" href="#contact" aria-label="Add LinkedIn profile">LinkedIn <span>↗</span></a>
+            <a class="config-behance" href="#contact" aria-label="Add Behance profile">Behance <span>↗</span></a>
+          </div>
+        </div>
+        <!-- CONTACT FORM: validation and mail-draft behavior are implemented in assets/site.js. -->
+        <form class="contact-form reveal" id="contact-form" novalidate>
+          <div class="form-topline"><span>START A CONVERSATION</span><span>01 — 04</span></div>
+          <label class="form-field">
+            <span>Your name <b>*</b></span>
+            <input type="text" name="name" autocomplete="name" placeholder="How should I address you?" required>
+            <small class="field-error"></small>
+          </label>
+          <label class="form-field">
+            <span>Email address <b>*</b></span>
+            <input type="email" name="email" autocomplete="email" placeholder="you@example.com" required>
+            <small class="field-error"></small>
+          </label>
+          <label class="form-field">
+            <span>Project details <b>*</b></span>
+            <textarea name="details" rows="3" placeholder="A little about the idea, timing, or what you need..."
+              required></textarea>
+            <small class="field-error"></small>
+          </label>
+          <label class="form-field">
+            <span>Estimated budget</span>
+            <select name="budget">
+              <option value="">Choose a range (optional)</option>
+              <option>Under 1,000</option>
+              <option>1,000 – 3,000</option>
+              <option>3,000 – 7,500</option>
+              <option>7,500+</option>
+              <option>Let’s discuss</option>
+            </select>
+          </label>
+          <fieldset class="opportunity-field">
+            <legend>I’m reaching out about</legend>
+            <label><input type="checkbox" name="opportunity" value="Freelance project"><span>Freelance
+                project</span></label>
+            <label><input type="checkbox" name="opportunity" value="Full-time opportunity"><span>Full-time
+                opportunity</span></label>
+          </fieldset>
+          <div class="form-bottom">
+            <p class="form-status" id="form-status" role="status" aria-live="polite">Fields marked * are required.</p>
+            <button class="button button-light" type="submit">Let’s work together <span
+                aria-hidden="true">↗</span></button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER: static text and configurable profile links. -->
+  <footer class="site-footer">
+     <div class="site-footer-des" >
+      <img src="./assets/images/desi.svg" alt=""/>
+    </div>
+    <div class="footer-main">
+      <div class="footer-brand">
+        <img src="./assets/images/desloper-logo.svg" width="34%" alt="">
+        <!-- <a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">D</span><span>DESLOPER<span class="brand-period">.</span></span></a> -->
+        <p>Bringing ideas to life through thoughtful design and digital craftsmanship.</p>
+      </div>
+      <div class="footer-nav">
+        <span class="mono-label">EXPLORE</span>
+        <a href="#work">Selected work</a><a href="#about">About me</a><a href="#contact">Contact</a>
+      </div>
+      <div class="footer-nav">
+        <span class="mono-label">ELSEWHERE</span>
+        <a class="config-linkedin" href="https://www.linkedin.com/in/desloperalamm/">LinkedIn <span>↗</span></a>
+        <a class="config-behance" href="https://www.behance.net/alammsaif">Behance <span>↗</span></a>
+        <a class="resume-placeholder" href="#contact">Download Resume</a>
+      </div>
+      <a class="back-top" href="#top" aria-label="Back to top">↑<span>BACK TO TOP</span></a>
+    </div>
+    <div class="footer-bottom"><span>© <span id="copyright-year">2026</span> Desloper. All rights
+        reserved.</span>
+        <!-- <span>DESIGNED WITH INTENTION <i>✳</i></span> -->
+        <!-- <span>DESIGN + DIGITAL CRAFT</span> -->
+    </div>
+  </footer>
+
+  <!-- CREATIVE LIGHTBOX: shared dialog populated from the selected gallery tile by assets/site.js. -->
+  <dialog class="lightbox" id="creative-lightbox" aria-label="Creative preview">
+    <button class="lightbox-close" type="button" aria-label="Close preview">×</button>
+    <div class="lightbox-content"></div>
+  </dialog>
+</body>
+
+</html>
