@@ -376,7 +376,7 @@
       audience: "People browsing products on a mobile device who need to find and compare relevant items with confidence.",
       knownScreens: "Product browsing, app screens, interface design, user flows, and prototype visuals are named in the supplied brief.",
       contextImage: {
-        src: "/assets/images/case-studies/e-commerce-app/hero-mobile-shopping.webp",
+        src: "/assets/images/case-studies/e-commerce-app/hero-mobile-shopping.png",
         alt: "Two friends comparing something on a phone while shopping together.",
         photographer: "Vitaly Gariev",
         source: "https://unsplash.com/photos/two-friends-look-at-a-phone-after-shopping-HQleqcqByYo"
@@ -423,7 +423,7 @@
       audience: "Audience details were not supplied. Add the intended agency customer and their primary needs.",
       knownScreens: "A landing page design is specified. Original screenshots, responsive layouts, and final project files were not supplied.",
       contextImage: {
-        src: "/assets/images/landing-pages/digital-marketing-agency/digitalMarketingHero.svg",
+        src: "/assets/images/landing-pages/digital-marketing-agency/digitalMarketingHero.png",
         alt: "A team collaborating around laptops at a meeting table.",
         photographer: "Ngital",
         source: "https://unsplash.com/photos/six-colleagues-collaborating-around-a-conference-table-with-laptops-RdEFWm0N84o"
@@ -515,7 +515,7 @@
       audience: "People exploring a premium audio product. Add the intended audience and product goals from the original project.",
       knownScreens: "A product-focused website design is specified. Original screenshots and responsive previews were not supplied.",
       contextImage: {
-        src: "/assets/images/landing-pages/apple-airpods-max-clone/AirpodsMax.svg",
+        src: "/assets/images/landing-pages/apple-airpods-max-clone/AirpodsMax.png",
         alt: "Close-up of over-ear studio headphones in dark warm lighting.",
         photographer: "Andrew Thongkham",
         source: "https://unsplash.com/photos/close-up-of-professional-studio-headphones-SXd6KwQNPlk"
