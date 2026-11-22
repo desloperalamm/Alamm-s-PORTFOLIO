@@ -33,6 +33,9 @@
   description: "A complete recreation of the Instagram iOS app interface, covering its key screens, navigation, and core features with both Light Mode and Dark Mode designs.",
 
   url: "/projects/instagram-ui-clone/instagram-ui-clone.html",
+  projectLinks: {
+    figma: "https://www.figma.com/proto/3QyIIdtSIOhqwR2VQfk4ob/Instagram-UI?node-id=187-1033&p=f&viewport=-15310%2C-6230%2C0.48&t=ojFNpumtRbij7Iu1-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=187%3A1033&page-id=0%3A1"
+  },
   platform: "iOS",
 
   summary: "A complete Instagram iOS app UI recreation focused on improving visual consistency, refining typography, correcting UI elements, and creating a cohesive experience across Light Mode and Dark Mode.",
@@ -310,6 +313,7 @@
       art: "seirei",
       description: "Designed a user-friendly, responsive website for Seirei Electronics Services Pvt. Ltd., a lithium battery manufacturer, focusing on intuitive navigation, clean UI, and seamless user experience.",
       url: "/projects/seirei-electronics-services-website/",
+      projectLinks: { figma: "https://seireielectronics.in" },
       platform: "Responsive website",
       summary: "A professional digital presence for presenting electronics services.",
       challenge: "The project brief calls for a clear, modern way to present electronics services. Specific user pain points, business constraints, and existing-site findings were not provided.",
@@ -364,6 +368,7 @@
       art: "shop",
       description: "A seamless shopping experience across mobile and web platforms, focused on intuitive product browsing, smooth navigation, and a user-friendly interface.",
       url: "/projects/e-commerce-app/",
+      projectLinks: { figma: "https://www.figma.com/proto/bLmaoycxXAmHqYPlBEaV33/App-UI-s?node-id=341-4872&page-id=0%3A1&t=QPetzwB8vr2NRn48-1" },
       platform: "Mobile app",
       summary: "A mobile shopping experience focused on browsing and clear navigation.",
       challenge: "The supplied brief prioritizes intuitive product browsing, seamless navigation, and a user-friendly shopping interface. Specific user pain points, research findings, and business constraints were not supplied.",
@@ -376,7 +381,8 @@
       audience: "People browsing products on a mobile device who need to find and compare relevant items with confidence.",
       knownScreens: "Product browsing, app screens, interface design, user flows, and prototype visuals are named in the supplied brief.",
       contextImage: {
-        src: "/assets/images/case-studies/e-commerce-app/hero-mobile-shopping.png",
+        // src: "/assets/images/case-studies/e-commerce-app/Mobile&webE-com.png",
+        src: "https://res.cloudinary.com/drrhixpv8/image/upload/v1795370760/Mobile_webE-com_idyrmo.png",
         alt: "Two friends comparing something on a phone while shopping together.",
         photographer: "Vitaly Gariev",
         source: "https://unsplash.com/photos/two-friends-look-at-a-phone-after-shopping-HQleqcqByYo"
@@ -416,6 +422,7 @@
       art: "agency",
       description: "A modern landing page design for a digital marketing agency.",
       url: "/projects/digital-marketing-agency/",
+      projectLinks: { figma: "https://www.figma.com/proto/KQ50c3N0TGUeLPRFihSgi9/Animated-web?node-id=1-4&page-id=0%3A1&t=rJWm4dthMupNPkjJ-1" },
       platform: "Responsive website concept",
       summary: "A modern landing page concept for a digital marketing agency.",
       challenge: "The supplied brief describes a modern agency landing page concept but does not include the original brief, target audience details, or project assets.",
@@ -423,7 +430,7 @@
       audience: "Audience details were not supplied. Add the intended agency customer and their primary needs.",
       knownScreens: "A landing page design is specified. Original screenshots, responsive layouts, and final project files were not supplied.",
       contextImage: {
-        src: "/assets/images/landing-pages/digital-marketing-agency/digitalMarketingHero.png",
+        src: "/assets/images/landing-pages/digital-marketing-agency/digitalMarketingHero.svg",
         alt: "A team collaborating around laptops at a meeting table.",
         photographer: "Ngital",
         source: "https://unsplash.com/photos/six-colleagues-collaborating-around-a-conference-table-with-laptops-RdEFWm0N84o"
@@ -462,6 +469,7 @@
       art: "bootcamp",
       description: "A website concept for a startup bootcamp focused on presenting programs and learning experiences.",
       url: "/projects/digital-startup-bootcamp/",
+      projectLinks: { figma: "https://www.figma.com/proto/QjnCYMdhlsp9nwGq5THCnn/future-of-remote-hiring?node-id=145-2&page-id=0%3A1&t=ynPOZuSlvyMplwij-1" },
       platform: "Responsive website concept",
       summary: "A website concept for a startup bootcamp and its learning programs.",
       challenge: "The supplied brief describes a startup bootcamp website concept focused on presenting programs and learning experiences. Original audience research and project assets were not supplied.",
@@ -508,6 +516,7 @@
       art: "airpods",
       description: "A product-focused website design inspired by the Apple AirPods Max product experience.",
       url: "/projects/apple-airpods-max-clone/",
+      projectLinks: { figma: "https://www.figma.com/proto/ThF68WAUhIgbv46lEnPYbM/AirPods-MAX?node-id=110-1407&viewport=637%2C-21%2C0.1&t=2x8NEJlB5lZHJczX-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=110%3A1407&page-id=0%3A1" },
       platform: "Responsive website concept",
       summary: "A product-focused website concept inspired by the AirPods Max experience.",
       challenge: "The supplied brief describes a product-focused website design inspired by the Apple AirPods Max product experience. Original screens, implementation details, and project links were not supplied.",
@@ -515,7 +524,7 @@
       audience: "People exploring a premium audio product. Add the intended audience and product goals from the original project.",
       knownScreens: "A product-focused website design is specified. Original screenshots and responsive previews were not supplied.",
       contextImage: {
-        src: "/assets/images/landing-pages/apple-airpods-max-clone/AirpodsMax.png",
+        src: "/assets/images/landing-pages/apple-airpods-max-clone/AirpodsMax.svg",
         alt: "Close-up of over-ear studio headphones in dark warm lighting.",
         photographer: "Andrew Thongkham",
         source: "https://unsplash.com/photos/close-up-of-professional-studio-headphones-SXd6KwQNPlk"
@@ -554,6 +563,7 @@
       art: "heaters",
       description: "Redesigned the Airex Heaters website with a modern, responsive interface, focusing on intuitive navigation, improved usability, and a clean visual experience across devices.",
       url: "/projects/airex-heaters-website-redesign/",
+      projectLinks: { figma: "https://www.figma.com/proto/fs276TGCiXm625BDPExCbz/Airex-Heaters?node-id=114-1509&viewport=-3425%2C270%2C0.18&t=PR55tyhlBtQyRize-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1" },
       platform: "Responsive website concept",
       summary: "A redesign concept for presenting heating products and services.",
       challenge: "The supplied brief describes a redesign concept focused on improving the presentation of heating products and services. An existing-site audit and the original design assets were not supplied.",
@@ -602,9 +612,6 @@
     project.coverImage = project.coverImage || "";
     project.gallery = project.gallery || [];
     project.projectLinks = project.projectLinks || {};
-    if (project.type === "case-study" || project.type === "landing-page") {
-      project.projectLinks.figma = "https://www.figma.com/proto/KQ50c3N0TGUeLPRFihSgi9/Animated-web?node-id=78-253&viewport=-13%2C384%2C0.17&t=4hUPqDQMq4xN2KPy-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1";
-    }
   });
   // Shared data is consumed by assets/site.js (homepage) and assets/project-page.js (project routes).
   window.PORTFOLIO_PROJECTS = projects;

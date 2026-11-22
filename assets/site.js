@@ -38,7 +38,7 @@
     if (!projectGrid) return;
     function cardMarkup(project, index) {
       var kind = project.type === "case-study" ? "CASE STUDY" : "LANDING PAGE";
-      var action = project.type === "case-study" ? "View Case Study" : "View Project";
+      var action = project.type === "case-study" ? "View Case Study" : "View Landing Page";
       var targetType = project.type === "case-study" ? "case study" : "project";
       var image = project.coverImage ?
         {src: project.coverImage, alt: "Project cover for " + project.title} : project.contextImage;
@@ -49,11 +49,11 @@
       return '<article class="project-card" data-category="' + escapeHtml(project.type) + '" data-project="' + escapeHtml(project.slug) + '" style="animation-delay:' + (index * 70) + 'ms">' +
         '<a class="project-image-link" href="' + escapeHtml(figmaUrl || project.url) + '"' + (figmaUrl ? ' target="_blank" rel="noopener noreferrer"' : '') + ' aria-label="Open ' + escapeHtml(project.title) + ' in Figma">' +
         '<div class="project-visual" data-art="' + escapeHtml(project.art) + '">' +
-        preview + '<span class="preview-label">' + (project.coverImage ? "PROJECT COVER" : project.contextImage ? "View" : "PORTFOLIO PREVIEW") + '</span></div></a>' +
-        '<a class="project-card-details" href="' + escapeHtml(project.url) + '" aria-label="View ' + escapeHtml(project.title) + ' ' + targetType + '">' +
+        preview + '<span class="preview-label">' + (project.coverImage ? "PROJECT COVER" : project.contextImage ? "View In Figma" : "PORTFOLIO PREVIEW") + '</span></div></a>' +
+        '<div class="project-card-details">' +
         '<div class="project-card-footer"><div><h3 class="project-card-title">' + escapeHtml(project.title) + '</h3>' +
         '<p class="project-card-category">' + escapeHtml(project.category) + ' <span>· ' + kind + '</span></p>' +
-        '<p class="project-card-desc">' + escapeHtml(project.description) + '</p><span class="project-view-link">' + action + ' <i aria-hidden="true">↗</i></span></div><span class="project-open" aria-hidden="true">↗</span></div></a></article>';
+        '<p class="project-card-desc">' + escapeHtml(project.description) + '</p><a class="project-view-link" href="' + escapeHtml(project.url) + '" aria-label="View ' + escapeHtml(project.title) + ' ' + targetType + '">' + action + ' <i aria-hidden="true">↗</i></a></div><span class="project-open" aria-hidden="true">↗</span></div></div></article>';
     }
     projectGrid.innerHTML = projects.filter(function (project) { return project.type === "case-study"; }).map(cardMarkup).join("");
     if (landingGrid) landingGrid.innerHTML = projects.filter(function (project) { return project.type === "landing-page"; }).map(cardMarkup).join("");

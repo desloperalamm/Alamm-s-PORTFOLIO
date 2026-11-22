@@ -714,7 +714,7 @@ img {
   transition: transform .6s cubic-bezier(.2, .8, .2, 1);
 }
 
-.project-card:hover .project-visual>img {
+.project-image-link:hover .project-visual>img {
   transform: scale(1.035);
 }
 
@@ -779,7 +779,7 @@ img {
   transition: transform .65s cubic-bezier(.2, .8, .2, 1), box-shadow .4s ease;
 }
 
-.project-card:hover .art-window {
+.project-image-link:hover .art-window {
   transform: translateY(6%) scale(1.025);
   box-shadow: 0 30px 65px rgba(0, 0, 0, .48);
 }
@@ -883,7 +883,7 @@ img {
   border-radius: 20px;
 }
 
-.project-card:hover .project-visual[data-art="shop"] .art-window {
+.project-image-link:hover .project-visual[data-art="shop"] .art-window {
   transform: translate(12%, 6%) scale(1.025);
 }
 
@@ -1073,7 +1073,7 @@ img {
   font-style: normal;
 }
 
-.project-card:hover .project-view-link {
+.project-view-link:hover {
   color: var(--cyan);
 }
 
@@ -1087,12 +1087,6 @@ img {
   border-radius: 50%;
   color: var(--cyan);
   transition: color .2s ease, background .2s ease, transform .2s ease;
-}
-
-.project-card:hover .project-open {
-  transform: rotate(45deg);
-  background: var(--cyan);
-  color: var(--ink);
 }
 
 .project-card[hidden] {
