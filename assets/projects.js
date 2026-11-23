@@ -430,7 +430,7 @@
       audience: "Audience details were not supplied. Add the intended agency customer and their primary needs.",
       knownScreens: "A landing page design is specified. Original screenshots, responsive layouts, and final project files were not supplied.",
       contextImage: {
-        src: "/assets/images/landing-pages/digital-marketing-agency/digitalMarketingHero.svg",
+        src: "https://res.cloudinary.com/drrhixpv8/image/upload/v1795458120/Digital_mnsqny.webp",
         alt: "A team collaborating around laptops at a meeting table.",
         photographer: "Ngital",
         source: "https://unsplash.com/photos/six-colleagues-collaborating-around-a-conference-table-with-laptops-RdEFWm0N84o"
@@ -477,7 +477,7 @@
       audience: "People exploring startup learning programs. Add the specific audience and program context from the original project.",
       knownScreens: "A website concept is specified. Original page designs, program details, and responsive screens were not supplied.",
       contextImage: {
-        src: "/assets/images/landing-pages/digital-startup-bootcamp/CorpzoStartupBootcamp.svg",
+        src: "https://res.cloudinary.com/drrhixpv8/image/upload/v1795458122/corpzo_t0akfr.webp",
         alt: "A diverse group of students sharing a laptop during a classroom collaboration.",
         photographer: "Vitaly Gariev",
         source: "https://unsplash.com/photos/diverse-group-of-students-collaborating-around-a-laptop--X4Qx4_4iMU"
@@ -524,7 +524,7 @@
       audience: "People exploring a premium audio product. Add the intended audience and product goals from the original project.",
       knownScreens: "A product-focused website design is specified. Original screenshots and responsive previews were not supplied.",
       contextImage: {
-        src: "/assets/images/landing-pages/apple-airpods-max-clone/AirpodsMax.svg",
+        src: "https://res.cloudinary.com/drrhixpv8/image/upload/v1795458119/AirPodsMax_vztteg.webp",
         alt: "Close-up of over-ear studio headphones in dark warm lighting.",
         photographer: "Andrew Thongkham",
         source: "https://unsplash.com/photos/close-up-of-professional-studio-headphones-SXd6KwQNPlk"
@@ -571,7 +571,7 @@
       audience: "People comparing heating products or services. Add the specific customer groups and needs from the original project.",
       knownScreens: "A website redesign concept is specified. Existing-site findings, original screenshots, and implementation details were not supplied.",
       contextImage: {
-        src: "/assets/images/landing-pages/airex-heaters-website-redesign/Airex-Heaters-landing-page.png  ",
+        src: "https://res.cloudinary.com/drrhixpv8/image/upload/v1795458123/Airex_mzs0hz.webp",
         alt: "Bright modern living room with a fireplace and large windows.",
         photographer: "Clay Banks",
         source: "https://unsplash.com/photos/modern-living-room-with-fireplace-and-large-windows-IE0m2PUI4Fg"

@@ -254,7 +254,8 @@ img {
   position: absolute;
   z-index: -3;
   inset: -4% 0;
-  background: url('./assets/images/alam-red.png') 50% 48% / cover;
+  /* background: url('./assets/images/alam-red.png') 50% 48% / cover; */
+  background: url('https://res.cloudinary.com/drrhixpv8/image/upload/v1795428354/alamred_kyoxqi.webp') 50% 48% / cover;
   opacity: .52;
   transform: scale(1.035);
   animation: hero-image-enter 1.5s ease-out both, hero-drift 24s ease-in-out 1.5s infinite alternate;
