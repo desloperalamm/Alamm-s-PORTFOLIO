@@ -65,18 +65,18 @@
   // Image files are stored in assets/images/creatives/; this catalog powers the visible grid and lightbox.
   var creatives = [
 
-    {title: "", cls: "campaign-custom", note: "", image: {src: "/assets/images/creatives/l1-burger.webp", alt: "", photographer: "",}},
-    {title: "", cls: "campaign-custom", note: "", image: {src: "/assets/images/creatives/s3-seirei.webp", alt: "", photographer: "",}},
-    {title: "", cls: "campaign-custom", note: "", image: {src: "/assets/images/creatives/l2-tmu.webp", alt: "", photographer: "",}},
-    {title: "", cls: "campaign-custom", note: "", image: {src: "/assets/images/creatives/l3-por.webp", alt: "", photographer: "",}},
-    {title: "", cls: "campaign-custom", note: "", image: {src: "/assets/images/creatives/l4-keys.webp", alt: "", photographer: "",}},
-    {title: "", cls: "campaign-custom", note: "", image: {src: "/assets/images/creatives/l6-monster.webp", alt: "", photographer: "",}},
-    {title: "", cls: "campaign-custom", note: "", image: {src: "/assets/images/creatives/l9-cake.webp", alt: "", photographer: "",}},
-    {title: "", cls: "campaign-custom", note: "", image: {src: "/assets/images/creatives/s2 airpods.webp", alt: "", photographer: "",}},
-    {title: "", cls: "campaign-custom", note: "", image: {src: "/assets/images/creatives/s5-seirei-future.webp", alt: "", photographer: "",}},
-    {title: "", cls: "campaign-custom", note: "", image: {src: "/assets/images/creatives/s4-keys.webp", alt: "", photographer: "",}},
-    {title: "", cls: "campaign-custom", note: "", image: {src: "/assets/images/creatives/s1-webrife.webp", alt: "", photographer: "",}},
-    {title: "", cls: "campaign-custom", note: "", image: {src: "/assets/images/creatives/l4.webp", alt: "", photographer: "",}}
+    {title: "", cls: "campaign-custom", note: "", image: {src: "https://res.cloudinary.com/drrhixpv8/image/upload/v1795427510/pizza2_he4mb1.webp", alt: "", photographer: "",}},
+    {title: "", cls: "campaign-custom", note: "", image: {src: "https://res.cloudinary.com/drrhixpv8/image/upload/v1795427509/seirei_w3krwm.webp", alt: "", photographer: "",}},
+    {title: "", cls: "campaign-custom", note: "", image: {src: "https://res.cloudinary.com/drrhixpv8/image/upload/v1795427510/tmu_na3nac.webp", alt: "", photographer: "",}},
+    {title: "", cls: "campaign-custom", note: "", image: {src: "https://res.cloudinary.com/drrhixpv8/image/upload/v1795427511/porsh_jm9iem.webp", alt: "", photographer: "",}},
+    {title: "", cls: "campaign-custom", note: "", image: {src: "https://res.cloudinary.com/drrhixpv8/image/upload/v1795427510/keys1_ti68fn.webp", alt: "", photographer: "",}},
+    {title: "", cls: "campaign-custom", note: "", image: {src: "https://res.cloudinary.com/drrhixpv8/image/upload/v1795427510/monster_t3lyl5.webp", alt: "", photographer: "",}},
+    {title: "", cls: "campaign-custom", note: "", image: {src: "https://res.cloudinary.com/drrhixpv8/image/upload/v1795427510/foodcourt1_u4ilrj.webp", alt: "", photographer: "",}},
+    {title: "", cls: "campaign-custom", note: "", image: {src: "https://res.cloudinary.com/drrhixpv8/image/upload/v1795427509/airpodsMax_rj68a4.webp", alt: "", photographer: "",}},
+    {title: "", cls: "campaign-custom", note: "", image: {src: "https://res.cloudinary.com/drrhixpv8/image/upload/v1795427509/seirei2_rmr8q1.webp", alt: "", photographer: "",}},
+    {title: "", cls: "campaign-custom", note: "", image: {src: "https://res.cloudinary.com/drrhixpv8/image/upload/v1795427510/keys_yhkcso.webp", alt: "", photographer: "",}},
+    {title: "", cls: "campaign-custom", note: "", image: {src: "https://res.cloudinary.com/drrhixpv8/image/upload/v1795427510/webrife_gu8qa3.webp", alt: "", photographer: "",}},
+    {title: "", cls: "campaign-custom", note: "", image: {src: "https://res.cloudinary.com/drrhixpv8/image/upload/v1795427509/foodcourt_ilym0y.webp", alt: "", photographer: "",}}
 
 
   ];
@@ -175,6 +175,22 @@
 
   // REVEAL ANIMATIONS: respect the visitor's reduced-motion preference.
   function setupReveal() {
+    var staggerGroups = [
+      ".project-card",
+      ".creative-tile",
+      ".skill-group",
+      ".about-values > span",
+      ".intro-strip > *",
+      ".subgroup-kicker",
+      ".landing-group-heading"
+    ];
+    staggerGroups.forEach(function (selector) {
+      document.querySelectorAll(selector).forEach(function (element, index) {
+        element.classList.add("reveal");
+        element.style.setProperty("--reveal-delay", Math.min(index % 4, 3) * 75 + "ms");
+      });
+    });
+
     var elements = document.querySelectorAll(".reveal");
     if (reducedMotion || !("IntersectionObserver" in window)) {
       elements.forEach(function (element) { element.classList.add("is-visible"); });
